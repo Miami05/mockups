@@ -1,0 +1,488 @@
+<!doctype html>
+<html lang="sq">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Artigiano – Restorant mesdhetar në Tiranë (propozim ridizajni)</title>
+<meta name="description" content="Propozim ridizajni për Artigiano, restorant mesdhetar në Tiranë me dy lokale: Blloku dhe Vila. Rezervoni përmes WhatsApp.">
+<meta name="robots" content="noindex">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="sq_AL">
+<meta property="og:title" content="Artigiano – Restorant mesdhetar në Tiranë">
+<meta property="og:description" content="Dy lokale në Tiranë, Blloku dhe Vila: kuzhinë mesdhetare, pica dhe pasta. Rezervoni në WhatsApp.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&h=630&q=75">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#2a1a14">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='16' fill='%23a8431f'/%3E%3Ctext x='16' y='22' font-size='18' text-anchor='middle' fill='%23f6ecdc' font-family='Georgia' font-style='italic'%3EA%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="font" type="font/woff2" crossorigin href="https://fonts.gstatic.com/s/cormorantgaramond/v21/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYqXtKky2F7g.woff2">
+<link rel="preload" as="font" type="font/woff2" crossorigin href="https://fonts.gstatic.com/s/cormorantgaramond/v21/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtImSqn7B6D.woff2">
+<link rel="preload" as="font" type="font/woff2" crossorigin href="https://fonts.gstatic.com/s/jost/v20/92zatBhPNqw73oTd4jQmfxI.woff2">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Jost:wght@400;500;600&display=optional" rel="stylesheet">
+<style>
+@font-face{font-family:'Cormorant Fallback';src:local('Times New Roman'),local('Times'),local('Georgia');size-adjust:100%;ascent-override:92.4%;descent-override:28.7%;line-gap-override:0%}
+@font-face{font-family:'Jost Fallback';src:local('Arial'),local('Helvetica'),local('Roboto');size-adjust:95%;ascent-override:112.6%;descent-override:39.5%;line-gap-override:0%}
+:root{
+  --cream:#f6ecdc; --paper:#fbf5ea; --ink:#2a1a14; --brown:#3d2a20; --muted:#6f5b4d;
+  --terra:#a8431f; --terra-d:#8a3416; --olive:#5b6038; --gold:#c9a15a; --line:#e3d3b8;
+  --wa:#0f7a40; --wa-d:#0b6533;
+  --s1:4px;--s2:8px;--s3:12px;--s4:16px;--s5:24px;--s6:32px;--s7:48px;--s8:72px;--s9:112px;
+  --serif:'Cormorant Garamond','Cormorant Fallback',Georgia,serif; --sans:'Jost','Jost Fallback',system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0}
+html{scroll-padding-top:var(--sp,130px)}
+body{font-family:var(--sans);background:var(--paper);color:var(--ink);line-height:1.65;font-size:17px;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.05}
+h1{font-size:clamp(3rem,11vw,6.6rem);letter-spacing:-.01em}
+h2{font-size:clamp(2.3rem,7vw,3.8rem)}
+h3{font-size:1.55rem}
+em{font-style:italic}
+.wrap{width:100%;max-width:1180px;margin-inline:auto;padding-inline:var(--s4)}
+@media(min-width:720px){.wrap{padding-inline:var(--s6)}}
+.skip{position:absolute;left:-999px;top:0;background:#fff;padding:12px 16px;z-index:100}
+.skip:focus{left:16px;top:16px}
+.demo{position:sticky;top:0;z-index:70;background:#fff1c9;color:#4d3a00;border-bottom:1px solid #e6cf85;font-size:.88rem;line-height:1.4;padding:var(--s2) var(--s4);text-align:center}
+.demo strong{background:#4d3a00;color:#fff1c9;padding:2px 8px;border-radius:999px;font-size:.875rem;letter-spacing:.06em;text-transform:uppercase;margin-right:var(--s2)}
+/* header */
+header.site{position:absolute;left:0;right:0;top:var(--demo-h,46px);z-index:50;color:#fff}
+header.site.stuck{position:fixed;top:var(--demo-h,46px);background:rgba(42,26,20,.94);backdrop-filter:blur(10px)}
+.bar{display:flex;align-items:center;justify-content:space-between;min-height:76px;gap:var(--s4)}
+.logo{font-family:var(--serif);font-size:2rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;display:flex;align-items:center;gap:var(--s3)}
+.logo svg{width:30px;height:30px;color:var(--gold)}
+nav.main{display:none;gap:var(--s6)}
+nav.main a{text-decoration:none;font-size:.9rem;letter-spacing:.16em;text-transform:uppercase;font-weight:500;padding:6px 0;border-bottom:1px solid transparent;transition:border-color .2s,color .2s}
+nav.main a:hover{color:var(--gold);border-color:var(--gold)}
+.menu-btn{display:inline-flex;flex-direction:column;gap:6px;width:46px;height:46px;align-items:center;justify-content:center;background:none;border:1px solid rgba(255,255,255,.4);border-radius:50%;cursor:pointer}
+.menu-btn span{width:20px;height:1.5px;background:#fff;transition:transform .25s,opacity .25s}
+.menu-btn[aria-expanded=true] span:nth-child(1){transform:translateY(7.5px) rotate(45deg)}
+.menu-btn[aria-expanded=true] span:nth-child(2){opacity:0}
+.menu-btn[aria-expanded=true] span:nth-child(3){transform:translateY(-7.5px) rotate(-45deg)}
+.mobile-nav{display:none;position:fixed;left:0;right:0;bottom:0;top:0;z-index:49;background:#2a1a14;padding:var(--s4) var(--s4) var(--s8);overflow-y:auto;overscroll-behavior:contain}
+html.nav-lock body{position:fixed;left:0;right:0;width:100%}
+.mobile-nav a{color:#fff}html.nav-lock .wa-fab{display:none}
+header.site.nav-open{background:#2a1a14;position:fixed;left:0;right:0;top:var(--demo-h,46px)}
+.mobile-nav.open{display:block}
+.mobile-nav a{display:block;padding:var(--s4) 0;text-decoration:none;font-family:var(--serif);font-size:1.7rem;border-bottom:1px solid rgba(255,255,255,.12)}
+@media(min-width:960px){nav.main{display:flex}.menu-btn,.mobile-nav{display:none!important}}
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:var(--s2);font:inherit;font-weight:600;font-size:.95rem;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border-radius:999px;padding:15px 30px;min-height:54px;border:1.5px solid transparent;cursor:pointer;transition:transform .2s,background .2s,color .2s,border-color .2s,box-shadow .2s}
+.btn:active{transform:scale(.98)}
+.btn-wa{background:var(--wa);color:#fff;box-shadow:0 12px 26px -10px rgba(15,122,64,.7)}
+.btn-wa:hover{background:var(--wa-d);transform:translateY(-2px)}
+.btn-line{border-color:rgba(255,255,255,.7);color:#fff}
+.btn-line:hover{background:#fff;color:var(--ink);transform:translateY(-2px)}
+.btn svg{width:22px;height:22px;flex:none}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:6px}
+/* hero */
+.hero{position:relative;min-height:min(100svh,860px);display:flex;align-items:flex-end;color:#fff;background:#2a1a14}
+.hero-bg{position:absolute;inset:0;background:radial-gradient(120% 90% at 70% 30%,#4a2f1f 0%,#2a1a14 55%,#1a0e0a 100%)}
+.hero-bg img{width:100%;height:100%;object-fit:cover}
+.hero-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(26,14,10,.84) 0%,rgba(26,14,10,.62) 38%,rgba(26,14,10,.92) 100%)}
+.hero-in{position:relative;padding-block:var(--s9) var(--s8);width:100%}
+.hero .kicker{font-size:.875rem;letter-spacing:.3em;text-transform:uppercase;color:var(--gold);font-weight:500;margin-bottom:var(--s4);display:flex;align-items:center;gap:var(--s3)}
+.hero .kicker::before{content:"";width:40px;height:1px;background:var(--gold)}
+.hero h1 em{color:var(--gold);font-weight:500}
+.hero p.lead{max-width:34em;margin-top:var(--s5);font-size:1.15rem;color:#fff7e8;text-shadow:0 1px 14px rgba(20,10,6,.85)}
+.cta-row{display:flex;flex-wrap:wrap;gap:var(--s3);margin-top:var(--s6)}
+.hero-meta{display:flex;flex-wrap:wrap;gap:var(--s3) var(--s6);margin-top:var(--s7);padding-top:var(--s5);border-top:1px solid rgba(255,255,255,.25);font-size:.95rem;color:#e8d9bf}
+.hero-meta b{color:#fff;font-weight:500}
+/* sections */
+section{padding:var(--s8) 0}
+@media(min-width:900px){section{padding:var(--s9) 0}}
+.kicker-d{font-size:.875rem;letter-spacing:.3em;text-transform:uppercase;color:var(--terra);font-weight:600;margin-bottom:var(--s4);display:flex;align-items:center;gap:var(--s3)}
+.kicker-d::before{content:"";width:36px;height:1px;background:var(--terra)}
+.story-grid{display:grid;gap:var(--s7);align-items:center}
+.story p{color:var(--muted);margin-top:var(--s5);font-size:1.08rem}
+.collage{position:relative;padding-bottom:20%;max-width:520px;width:100%;margin-inline:auto}
+.collage .a{border-radius:200px 200px 8px 8px;overflow:hidden;aspect-ratio:4/5;width:78%;box-shadow:0 30px 50px -28px rgba(42,26,20,.6)}
+.collage .b{position:absolute;right:0;bottom:0;width:52%;aspect-ratio:1;border-radius:8px;overflow:hidden;border:8px solid var(--paper);box-shadow:0 20px 40px -20px rgba(42,26,20,.5)}
+.collage img{width:100%;height:100%;object-fit:cover}
+@media(min-width:900px){.story-grid{grid-template-columns:1fr 1fr;gap:var(--s8)}}
+/* menu */
+.menu{background:var(--brown);color:var(--cream);position:relative}
+.menu h2{color:#fff}
+.menu .kicker-d{color:var(--gold)}.menu .kicker-d::before{background:var(--gold)}
+.menu-head{text-align:center;max-width:620px;margin:0 auto var(--s7)}
+.menu-head p{color:#d6c3a5;margin-top:var(--s4)}
+.menu-grid{display:grid;gap:var(--s7) var(--s8)}
+@media(min-width:800px){.menu-grid{grid-template-columns:1fr 1fr}}
+.cat h3{color:var(--gold);font-style:italic;font-weight:500;font-size:2rem;padding-bottom:var(--s3);border-bottom:1px solid rgba(201,161,90,.4);margin-bottom:var(--s5)}
+.dish{display:grid;grid-template-columns:1fr auto;gap:var(--s1) var(--s4);margin-bottom:var(--s5)}
+.cat{min-width:0}
+.dish b{font-weight:500;font-size:1.08rem;color:#fff}
+.dish .price{font-family:var(--serif);font-size:1.35rem;color:var(--gold);white-space:nowrap}
+.dish p{grid-column:1/-1;font-size:1rem;color:#d9c7aa}
+.btn-menu{border-color:var(--gold);color:var(--gold);margin-top:var(--s3)}.btn-menu:hover{background:var(--gold);color:var(--brown)}
+.menu .fine{text-align:center;margin-top:var(--s7);font-size:.875rem;color:#b29c7c}
+/* gallery */
+.gallery-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:var(--s4);margin-bottom:var(--s7)}
+.gallery-head p{color:var(--muted);max-width:26em}
+.mosaic{display:grid;gap:var(--s3);grid-template-columns:1fr 1fr;grid-auto-rows:150px}
+.mosaic figure{position:relative;overflow:hidden;border-radius:8px;background:var(--line)}
+.mosaic img{width:100%;height:100%;object-fit:cover;transition:transform .8s ease}
+.mosaic figure:hover img{transform:scale(1.07)}
+.mosaic figcaption{position:absolute;left:var(--s3);bottom:var(--s3);font-size:.875rem;letter-spacing:.14em;text-transform:uppercase;color:#fff;background:rgba(42,26,20,.6);padding:3px 10px;border-radius:999px}
+.mosaic .t2{grid-column:span 2}.mosaic .t{grid-row:span 2}.mosaic .w{grid-column:span 2}
+@media(min-width:800px){.mosaic{grid-template-columns:repeat(4,1fr);grid-auto-rows:210px;gap:var(--s4)}.mosaic .w{grid-column:span 2}.mosaic .t2{grid-column:auto;grid-row:span 2}}
+/* reserve */
+.reserve{background:var(--cream)}
+.reserve-grid{display:grid;gap:var(--s7)}
+@media(min-width:900px){.reserve-grid{grid-template-columns:1.05fr .95fr;gap:var(--s8)}}
+form.res{background:#fff;border-radius:16px;padding:var(--s6) var(--s5);border:1px solid var(--line);box-shadow:0 30px 50px -34px rgba(42,26,20,.5);display:grid;gap:var(--s4)}
+.row2{display:grid;gap:var(--s4)}
+@media(min-width:520px){.row2{grid-template-columns:1fr 1fr}}
+label{font-size:.875rem;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--muted);display:grid;gap:var(--s2)}
+input,select,textarea{font:inherit;font-size:1rem;color:var(--ink);letter-spacing:0;text-transform:none;font-weight:400;padding:13px 14px;border:1px solid #d7c6a8;border-radius:10px;background:var(--paper);width:100%;min-height:50px}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--terra);outline-offset:1px;border-color:var(--terra)}
+.res .hint{font-size:.875rem;color:var(--muted);text-transform:none;letter-spacing:0;font-weight:400}
+.hours-card{display:grid;gap:var(--s5);align-content:start}
+.hours-card h3{font-size:2rem}
+.hrs{list-style:none;padding:0}
+.hrs li{display:flex;justify-content:space-between;gap:var(--s4);padding:var(--s3) 0;border-bottom:1px dashed #cdb892}
+.hrs li b{font-weight:600}
+.infostrip{background:var(--cream);border-bottom:1px solid var(--line);padding:var(--s6) 0}
+.info-grid{display:grid;gap:var(--s4)}
+@media(min-width:760px){.info-grid{grid-template-columns:1fr 1fr;gap:var(--s5)}}
+.loc-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:var(--s5);display:grid;gap:var(--s3);align-content:start}
+.loc-card h2{font-size:1.9rem}
+.btn-call{border-color:var(--terra);color:var(--terra);justify-self:start;margin-top:var(--s2);letter-spacing:.04em;text-transform:none;font-size:1rem}
+.btn-call:hover{background:var(--terra);color:#fff;transform:translateY(-2px)}
+.locs{display:inline-flex;gap:6px;padding:6px;border-radius:999px;background:#fff;border:1px solid var(--line);justify-self:start}
+.locs button{font:inherit;font-weight:600;letter-spacing:.1em;text-transform:uppercase;font-size:.875rem;border:0;background:none;padding:10px 22px;border-radius:999px;cursor:pointer;color:var(--muted);min-height:44px}
+.locs button[aria-pressed=true]{background:var(--terra);color:#fff}
+.locpanel h3{margin-bottom:var(--s2)}.addr-line{color:var(--muted);font-size:1.05rem;margin-bottom:var(--s3)}
+.big-link{display:inline;font-family:var(--serif);font-size:1.9rem;font-weight:700;text-decoration:none;color:var(--ink)}.big-link:hover{color:var(--terra)}
+.addr{display:grid;gap:var(--s3);color:var(--muted)}
+.addr a{font-weight:600;color:var(--ink);text-decoration:none}.addr a:hover{color:var(--terra);text-decoration:underline}
+.map{border-radius:16px;overflow:hidden;min-height:300px;background:var(--line);border:1px solid var(--line)}
+.map iframe{display:block;width:100%;height:300px;border:0}
+footer{background:#1a0e0a;color:#bfa98a;padding:var(--s7) 0 var(--s6);font-size:.9rem}
+footer .wrap{display:grid;gap:var(--s3)}
+footer a{color:var(--gold)}
+footer .logo{color:#fff;font-size:1.5rem}
+.logo{transition:color .2s}.logo:hover{color:var(--gold)}
+.locs button[aria-pressed=true]:hover{background:var(--terra-d)}
+.locs button:hover:not([aria-pressed=true]){background:#f4e8d3;color:var(--terra)}
+.menu .owner-note{background:rgba(255,244,214,.08);border-color:rgba(201,161,90,.55);color:#ecdcc0;text-align:center;max-width:680px;margin:var(--s6) auto 0}
+.gallery-head .owner-note{margin-top:0;max-width:30em}
+.js .reveal{opacity:0;transform:translateY(24px);transition:opacity .8s ease,transform .8s ease}
+.js .reveal.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}.js .reveal{opacity:1;transform:none}}
+.wa-fab{opacity:0;pointer-events:none;position:fixed;right:var(--s4);bottom:var(--s4);z-index:55;width:60px;height:60px;border-radius:50%;background:var(--wa);color:#fff;display:grid;place-items:center;box-shadow:0 12px 26px -8px rgba(0,0,0,.5);transition:opacity .3s,transform .2s}
+.wa-fab.show{opacity:1;pointer-events:auto}
+.wa-fab.hide{opacity:0!important;pointer-events:none!important;transition-duration:.05s}.wa-fab:hover{transform:scale(1.08)}
+.wa-fab svg{width:30px;height:30px}
+@media(min-width:960px){.wa-fab{display:none}}
+/* booking calendar (shared) */
+.cal{position:relative}
+.cal:has(.cal-months.two) .cal-head{position:absolute;left:0;right:0;top:0;margin:0;pointer-events:none;z-index:2}
+.cal:has(.cal-months.two) .cal-nav{pointer-events:auto}
+.cal-months.two .cal-mt{line-height:44px;margin-bottom:4px}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.cal-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:12px}
+.cal-live{flex:1;text-align:center;font-weight:700;font-size:1.1rem}
+.cal-nav{width:44px;height:44px;border-radius:50%;border:1.5px solid var(--cal-line);background:var(--cal-bg);color:inherit;font-size:1.5rem;line-height:1;cursor:pointer;display:grid;place-items:center;padding:0 0 3px;transition:background .2s}
+.cal-nav:hover:not(:disabled){background:var(--cal-hover)}.cal-nav:disabled{opacity:.35;cursor:not-allowed}
+.cal-months{display:grid;gap:24px}
+@media(min-width:900px){.cal-months.two{grid-template-columns:repeat(2,minmax(0,1fr));gap:32px}}
+.cal-mt{text-align:center;font-weight:700;font-size:1.05rem;margin-bottom:8px}
+.cal-w,.cal-g{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px 0}
+.cal-w span{text-align:center;font-size:.875rem;font-weight:600;color:var(--cal-muted);padding:6px 0}
+.cal .d,.cal-g .d{min-height:44px;border:0;border-radius:12px;background:transparent;font:inherit;font-weight:600;color:inherit;cursor:pointer;padding:0;transition:background .15s}
+.cal-g .d:hover:not(:disabled){background:var(--cal-hover)}
+.cal-g .d:disabled{color:var(--cal-dis);cursor:not-allowed;font-weight:400}
+.cal-g .d.today{box-shadow:inset 0 0 0 1.5px var(--cal-accent)}
+.cal-g .d.sel{background:var(--cal-accent);color:var(--cal-ink)}
+.cal-g .d.rng,.cal-g .d.prev{background:var(--cal-range);border-radius:0}
+.cal-g .d.start:not(.only){border-radius:12px 0 0 12px}.cal-g .d.end{border-radius:0 12px 12px 0}
+.cal-g .d.end.prev{background:var(--cal-range);color:inherit}
+.cal button:focus-visible,.chip:focus-visible,.step button:focus-visible{outline:3px solid var(--cal-focus);outline-offset:2px;position:relative;z-index:1}
+.chip-g+.chip-g{margin-top:16px}.chip-t{font-weight:700;font-size:.875rem;letter-spacing:.06em;text-transform:uppercase;color:var(--cal-muted);margin-bottom:8px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{min-height:44px;min-width:72px;padding:0 14px;border:1.5px solid var(--cal-line);border-radius:999px;background:var(--cal-bg);color:inherit;font:inherit;font-weight:600;cursor:pointer;transition:background .15s,border-color .15s}
+.chip:hover:not(:disabled){border-color:var(--cal-accent)}
+.chip[aria-pressed=true]{background:var(--cal-accent);border-color:var(--cal-accent);color:var(--cal-ink)}
+.chip:disabled{opacity:.4;cursor:not-allowed}
+.step{display:inline-flex;align-items:center;gap:6px;border:1.5px solid var(--cal-line);border-radius:999px;padding:4px;background:var(--cal-bg)}
+.step button{width:44px;height:44px;border-radius:50%;border:0;background:var(--cal-hover);color:inherit;font-size:1.4rem;line-height:1;cursor:pointer}
+.step button:disabled{opacity:.35;cursor:not-allowed}
+.step output{min-width:44px;text-align:center;font-weight:700;font-size:1.15rem}
+.bk-err{color:#b3261e;font-weight:600;font-size:.95rem;min-height:1.4em}
+.bk-sum{font-weight:600;padding:12px 14px;border-radius:12px;background:var(--cal-hover);font-size:1rem}
+.res{--cal-line:#dccfb4;--cal-bg:#fff;--cal-hover:#f4e8d3;--cal-muted:var(--muted);--cal-dis:#b9a88f;--cal-accent:var(--terra);--cal-ink:#fff;--cal-range:#f4e8d3;--cal-focus:var(--terra-d)}
+.fl{font-size:.875rem;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--muted);margin-bottom:var(--s2)}
+.field{display:grid;gap:var(--s2)}
+.res .cal{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:var(--s3)}
+
+.step output.bump{animation:bump .35s ease}@keyframes bump{40%{transform:scale(1.25)}}
+.step button:hover:not(:disabled){background:var(--cal-accent);color:var(--cal-ink)}
+.btn-link:hover{text-decoration-thickness:3px}
+.nw{white-space:nowrap}
+.owner-note{display:block;background:rgba(255,244,214,.55);border:1px dashed #d8bf6a;border-radius:10px;padding:8px 12px;font-size:.875rem;color:#5b4300;line-height:1.5;margin-top:var(--s4)}
+.owner-note strong{font-weight:700}
+@media(prefers-reduced-motion:reduce){.step output.bump{animation:none}}
+footer a:hover{text-decoration:underline;color:#fff}
+.btn-call{display:inline-block;line-height:1.55;padding:12px 18px;letter-spacing:0}
+.locpanel>p:last-child{margin-top:var(--s2)}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id="wa" viewBox="0 0 24 24"><path d="M20.5 3.5A11.8 11.8 0 0 0 12 0C5.4 0 .1 5.3.1 11.9c0 2.1.6 4.1 1.6 5.9L0 24l6.4-1.7a11.9 11.9 0 0 0 5.6 1.4h0c6.6 0 11.9-5.3 11.9-11.9 0-3.2-1.2-6.2-3.4-8.3zM12 21.7a9.9 9.9 0 0 1-5-1.4l-.4-.2-3.8 1 1-3.7-.2-.4a9.9 9.9 0 1 1 8.4 4.7zm5.4-7.4c-.3-.1-1.8-.9-2-1s-.5-.1-.7.1-.8 1-1 1.2-.4.2-.7.1a8 8 0 0 1-4-3.5c-.3-.5.3-.5.9-1.6.1-.2.1-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6a1.1 1.1 0 0 0-.8.4 3.4 3.4 0 0 0-1 2.5 5.9 5.9 0 0 0 1.2 3.1 13.5 13.5 0 0 0 5.2 4.6c1.9.8 2.6.9 3.6.7a3 3 0 0 0 2-1.4 2.5 2.5 0 0 0 .2-1.4c-.1-.1-.3-.2-.6-.4z"/></symbol></svg>
+<a class="skip" href="#main">Kalo te përmbajtja</a>
+<div class="demo" role="note" id="demo"><strong>Shembull / Demo:</strong> kjo faqe është një propozim, jo faqja zyrtare e Artigiano.</div>
+
+<header class="site" id="hdr">
+  <div class="wrap bar">
+    <a class="logo" href="#top" aria-label="Artigiano, kreu">
+      <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M16 29V13M16 13c0-5 3-9 9-10-.5 6-3.5 10-9 10zM16 18c0-4-2.5-7-8-8 .5 5 3 8 8 8z"/></svg>
+      Artigiano
+    </a>
+    <nav class="main" aria-label="Menuja kryesore"><a href="#historia">Rreth nesh</a><a href="#menu">Menuja</a><a href="#galeria">Galeria</a><a href="#rezervo">Rezervo</a></nav>
+    <button class="menu-btn" aria-label="Hap menunë" aria-expanded="false" aria-controls="mnav"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<div class="mobile-nav" id="mnav"><a href="#historia">Rreth nesh</a><a href="#menu">Menuja</a><a href="#galeria">Galeria</a><a href="#rezervo">Rezervo tavolinën</a></div>
+
+<main id="main">
+<section class="hero" id="top" aria-labelledby="h1" style="padding:0">
+  <div class="hero-bg"><img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=75" srcset="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=75 800w, https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=75 1200w, https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1800&q=75 1800w" sizes="100vw" alt="Tavolinë e shtruar me pjata dhe gota verë (foto ilustruese)" width="1800" height="1200" fetchpriority="high"></div>
+  <div class="wrap hero-in">
+    <p class="kicker">Restorant · Tiranë</p>
+    <h1 id="h1">Shije <em>mesdhetare</em>,<br>një tavolinë për ju.</h1>
+    <p class="lead">Dy lokale në Tiranë, një kuzhinë: pasta të bëra në shtëpi, pica dhe pjata mesdhetare. Rezervoni në pak sekonda në WhatsApp, pa pritur në telefon.</p>
+    <div class="cta-row">
+      <a class="btn btn-wa" href="https://wa.me/355692092798?text=P%C3%ABrsh%C3%ABndetje!%20Do%20t%C3%AB%20doja%20t%C3%AB%20rezervoja%20nj%C3%AB%20tavolin%C3%AB." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><use href="#wa"/></svg>Rezervo në WhatsApp</a>
+      <a class="btn btn-line" href="#menu">Shiko menunë</a>
+    </div>
+    <div class="hero-meta"><span><b>Dy lokale:</b> Blloku dhe Vila</span><span>Çdo ditë nga ora 11:30</span><span>Kuzhinë mesdhetare, pica dhe pasta</span></div>
+  </div>
+</section>
+
+<section class="infostrip" aria-label="Orari dhe kontakti">
+  <div class="wrap info-grid">
+    <article class="loc-card"><h2>Blloku</h2><p class="addr-line">Kryqëzimi i Librit Universitar, Rruga Abdyl Frashëri, Tiranë 1017</p>
+      <ul class="hrs"><li><span>E hënë – E shtunë</span><b>11:30 – 00:00</b></li><li><span>E diel</span><b>11:30 – 23:30</b></li></ul>
+      <a class="btn btn-call" href="tel:+355692092798"><span>Telefono <span class="nw">+355 69 209 2798</span></span></a></article>
+    <article class="loc-card"><h2>Vila</h2><p class="addr-line">Rruga Papa Gjon Pali II 9, Tiranë 1001</p>
+      <ul class="hrs"><li><span>E hënë – E diel</span><b>11:30 – 00:00</b></li></ul>
+      <a class="btn btn-call" href="tel:+355676000480"><span>Telefono <span class="nw">+355 67 600 0480</span></span></a></article>
+  </div>
+</section>
+
+<section class="story" id="historia" aria-labelledby="h-story">
+  <div class="wrap story-grid">
+    <div class="reveal">
+      <p class="kicker-d">La nostra tavola</p>
+      <h2 id="h-story">Dy adresa, <em>një kuzhinë</em></h2>
+      <div class="story"><p>Artigiano ju pret në dy adresa në Tiranë: në Bllok, afër kryqëzimit të Librit Universitar, dhe te Artigiano Vila, në Rrugën Papa Gjon Pali II. Dy ambiente, e njëjta kuzhinë mesdhetare.</p></div>
+    </div>
+    <div class="collage reveal">
+      <div class="a"><img src="https://images.unsplash.com/photo-1473093226795-af9932fe5856?auto=format&fit=crop&w=800&q=70" srcset="https://images.unsplash.com/photo-1473093226795-af9932fe5856?auto=format&fit=crop&w=480&q=70 480w, https://images.unsplash.com/photo-1473093226795-af9932fe5856?auto=format&fit=crop&w=800&q=70 800w, https://images.unsplash.com/photo-1473093226795-af9932fe5856?auto=format&fit=crop&w=1200&q=70 1200w" sizes="(min-width: 900px) 45vw, 100vw" alt="Pjatë me pasta pappardelle dhe spinaq (foto ilustruese)" width="800" height="1000" loading="lazy"></div>
+      <div class="b"><img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=800&q=70" srcset="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=480&q=70 480w, https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=800&q=70 800w, https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=1200&q=70 1200w" sizes="(min-width: 900px) 45vw, 100vw" alt="Pica Margherita (foto ilustruese)" width="600" height="600" loading="lazy"></div>
+    </div>
+  </div>
+</section>
+
+<section class="menu" id="menu" aria-labelledby="h-menu">
+  <div class="wrap">
+    <div class="menu-head reveal">
+      <p class="kicker-d" style="justify-content:center">Menuja</p>
+      <h2 id="h-menu">Disa nga <em>pjatat</em></h2>
+      <p>Disa nga pjatat tona të preferuara, me çmime të qarta.</p>
+    </div>
+    <div class="menu-grid">
+      <div class="cat reveal"><h3>Antipasti</h3>
+        <div class="dish"><b>Burrata me domate qershi</b><span class="price">6,2 €</span><p>Burrata e butë me domate qershi të marinuara.</p></div>
+        <div class="dish"><b>Djathë brie i pjekur</b><span class="price">7,7 €</span><p>Brie i mbështjellë me brumë, me fruta të thata dhe reçel fiku i bërë në shtëpi.</p></div>
+        <div class="dish"><b>Karkaleca tempura</b><span class="price">15,4 €</span><p>Karkaleca krokante, të servirura me salcën pikante rozë të shtëpisë.</p></div>
+      </div>
+      <div class="cat reveal"><h3>Supë dhe pjata kryesore</h3>
+        <div class="dish"><b>Supë deti</b><span class="price">7,1 €</span><p>Supë e pasur me karkaleca, kallamar, midhje dhe peshk të ditës, me bukë hudhre.</p></div>
+        <div class="dish"><b>Salmon me kinoa</b><span class="price">16,5 €</span><p>Fileto salmoni në skarë me sallatë kinoa dhe avokado.</p></div>
+        <a class="btn btn-menu" href="https://artigiano.al/locations/artigiano-restaurant/menu/" target="_blank" rel="noopener">Shiko menunë e plotë</a>
+      </div>
+    </div>
+    <p class="owner-note"><strong>Shënim për pronarin:</strong> pjatat dhe çmimet janë marrë nga faqja aktuale dhe duhen konfirmuar.</p>
+  </div>
+</section>
+
+<section class="gallery" id="galeria" aria-labelledby="h-gal">
+  <div class="wrap">
+    <div class="gallery-head reveal"><div><p class="kicker-d">Galeria</p><h2 id="h-gal">Ushqim që <em>të fton</em></h2></div><p class="owner-note"><strong>Shënim për pronarin:</strong> fotot janë ilustruese nga Unsplash. Këtu vendosen fotot reale të të dy lokaleve.</p></div>
+    <div class="mosaic">
+      <figure class="t reveal"><img src="https://images.unsplash.com/photo-1595295333158-4742f28fbd85?auto=format&fit=crop&w=800&q=70" srcset="https://images.unsplash.com/photo-1595295333158-4742f28fbd85?auto=format&fit=crop&w=480&q=70 480w, https://images.unsplash.com/photo-1595295333158-4742f28fbd85?auto=format&fit=crop&w=800&q=70 800w, https://images.unsplash.com/photo-1595295333158-4742f28fbd85?auto=format&fit=crop&w=1200&q=70 1200w" sizes="(min-width: 800px) 28vw, 50vw" alt="Pjatë me spaghetti dhe molusqe (foto ilustruese)" loading="lazy" width="700" height="700"><figcaption>Foto ilustruese</figcaption></figure>
+      <figure class="reveal"><img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&w=800&q=70" srcset="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&w=480&q=70 480w, https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&w=800&q=70 800w, https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&w=1200&q=70 1200w" sizes="(min-width: 800px) 28vw, 50vw" alt="Pjatë me penne në salcë domatesh (foto ilustruese)" loading="lazy" width="600" height="400"><figcaption>Pasta</figcaption></figure>
+      <figure class="reveal"><img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=70" srcset="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=480&q=70 480w, https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=70 800w, https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1200&q=70 1200w" sizes="(min-width: 800px) 28vw, 50vw" alt="Pica e prerë në feta (foto ilustruese)" loading="lazy" width="600" height="400"><figcaption>Pica</figcaption></figure>
+      <figure class="t2 reveal"><img src="https://images.unsplash.com/photo-1563379926898-05f4575a45d8?auto=format&fit=crop&w=800&q=70" srcset="https://images.unsplash.com/photo-1563379926898-05f4575a45d8?auto=format&fit=crop&w=480&q=70 480w, https://images.unsplash.com/photo-1563379926898-05f4575a45d8?auto=format&fit=crop&w=800&q=70 800w, https://images.unsplash.com/photo-1563379926898-05f4575a45d8?auto=format&fit=crop&w=1200&q=70 1200w" sizes="(min-width: 800px) 28vw, 50vw" alt="Spaghetti me karkaleca në tigan (foto ilustruese)" loading="lazy" width="700" height="700"><figcaption>Fruta deti</figcaption></figure>
+      <figure class="w reveal"><img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=70" srcset="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=480&q=70 480w, https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=70 800w, https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1200&q=70 1200w" sizes="(min-width: 800px) 28vw, 50vw" alt="Ambient restoranti me tavolina druri (foto ilustruese)" loading="lazy" width="1000" height="500"><figcaption>Ambienti</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="reserve" id="rezervo" aria-labelledby="h-res">
+  <div class="wrap reserve-grid">
+    <div class="reveal">
+      <p class="kicker-d">Rezervime</p>
+      <h2 id="h-res" style="margin-bottom:var(--s5)">Rezervoni <em>tavolinën</em></h2>
+      <form class="res" id="resform" novalidate>
+        <div class="row2">
+          <label>Lokali<select name="loc"><option>Artigiano Blloku</option><option>Artigiano Vila</option></select></label>
+          <div class="field"><p class="fl" id="pl">Persona</p><div class="step" id="pst"></div></div>
+        </div>
+        <label>Emri<input name="name" autocomplete="name" placeholder="Emri juaj" aria-describedby="err" aria-required="true"></label>
+        <p class="bk-err" id="nameerr" role="alert" style="margin-top:-8px"></p>
+        <div class="field"><p class="fl" id="dl">Data</p><div class="cal" id="cal" aria-labelledby="dl"></div></div>
+        <div class="field"><p class="fl" id="tl">Ora</p><div id="slots" aria-labelledby="tl"></div></div>
+        <label>Shënim (opsionale)<input name="note" placeholder="p.sh. ditëlindje, alergji"></label>
+        <p class="bk-sum" id="sum" aria-live="polite">Zgjidhni një ditë dhe një orë.</p>
+        <p class="bk-err" id="err" role="alert"></p>
+        <button class="btn btn-wa" type="submit"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><use href="#wa"/></svg>Dërgo kërkesën në WhatsApp</button>
+        <p class="hint">Formulari hap WhatsApp me mesazhin e gatshëm. Asnjë e dhënë nuk ruhet në këtë faqe.</p>
+      </form>
+    </div>
+    <div class="hours-card reveal">
+      <div class="locs" role="group" aria-label="Zgjidhni lokalin">
+        <button type="button" aria-pressed="true" data-loc="blloku">Blloku</button>
+        <button type="button" aria-pressed="false" data-loc="vila">Vila</button>
+      </div>
+      <div class="locpanel" id="loc-blloku">
+        <h3>Artigiano Blloku</h3>
+        <p class="addr-line">Kryqëzimi i Librit Universitar, Rruga Abdyl Frashëri, Tiranë 1017</p>
+        <ul class="hrs"><li><span>E hënë – E shtunë</span><b>11:30 – 00:00</b></li><li><span>E diel</span><b>11:30 – 23:30</b></li></ul>
+        <p><a class="big-link" href="tel:+355692092798"><span class="nw">+355 69 209 2798</span></a></p>
+      </div>
+      <div class="locpanel" id="loc-vila" hidden>
+        <h3>Artigiano Vila</h3>
+        <p class="addr-line">Rruga Papa Gjon Pali II 9, Tiranë 1001</p>
+        <ul class="hrs"><li><span>E hënë – E diel</span><b>11:30 – 00:00</b></li></ul>
+        <p><a class="big-link" href="tel:+355676000480"><span class="nw">+355 67 600 0480</span></a></p>
+      </div>
+      <div class="map"><iframe id="mapframe" title="Harta e lokalit të zgjedhur, Artigiano Tiranë" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Artigiano+Restaurant+Rruga+Abdyl+Frasheri+Tirane&amp;output=embed"></iframe></div>
+      <p class="addr"><a href="https://www.facebook.com/Artigiano.Tirane" target="_blank" rel="noopener">Artigiano në Facebook</a></p>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span class="logo">Artigiano</span>
+    <p>Blloku: Rruga Abdyl Frashëri, Tiranë 1017 · <span class="nw">+355 69 209 2798</span> &nbsp;|&nbsp; Vila: Rruga Papa Gjon Pali II 9, Tiranë 1001 · <span class="nw">+355 67 600 0480</span></p>
+    <p>Shembull / Demo: kjo faqe është një propozim ridizajni dhe nuk është faqja zyrtare e Artigiano (artigiano.al). Pjatat dhe çmimet janë marrë nga faqja aktuale dhe duhen konfirmuar; fotot janë ilustruese nga <a href="https://unsplash.com" target="_blank" rel="noopener">Unsplash</a> (licencë Unsplash).</p>
+  </div>
+</footer>
+<a class="wa-fab" href="https://wa.me/355692092798" target="_blank" rel="noopener" aria-label="Shkruani në WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><use href="#wa"/></svg></a>
+
+<script>
+document.documentElement.classList.add('js');
+(function(){
+  var demo=document.getElementById('demo'),hdr=document.getElementById('hdr'),fab=document.querySelector('.wa-fab');
+  function setH(){var h=document.querySelector('header.site'),dh=demo.offsetHeight,st=document.documentElement.style;st.setProperty('--demo-h',dh+'px');st.setProperty('--sp',(dh+(h?h.offsetHeight:70)+12)+'px')}
+  setH();addEventListener('resize',setH);addEventListener('load',setH);if(document.fonts&&document.fonts.ready)document.fonts.ready.then(setH);
+  addEventListener('scroll',function(){hdr.classList.toggle('stuck',scrollY>80);fab.classList.toggle('show',scrollY>700)},{passive:true});
+  var btn=document.querySelector('.menu-btn'),nav=document.getElementById('mnav'),hdr=document.querySelector('header.site'),HE=document.documentElement,LB=['Hap menunë','Mbyll menunë'];
+  var savedY=0;
+  function openNav(){savedY=window.scrollY;document.body.style.top='-'+savedY+'px';HE.classList.add('nav-lock');hdr.classList.add('nav-open');nav.style.top=hdr.getBoundingClientRect().bottom+'px';nav.classList.add('open');btn.setAttribute('aria-expanded','true');btn.setAttribute('aria-label',LB[1]);var a=nav.querySelector('a');if(a)a.focus({preventScroll:true})}
+  function closeNav(ret){nav.classList.remove('open');hdr.classList.remove('nav-open');HE.classList.remove('nav-lock');document.body.style.top='';window.scrollTo({top:savedY,behavior:'instant'});btn.setAttribute('aria-expanded','false');btn.setAttribute('aria-label',LB[0]);if(ret)btn.focus({preventScroll:true})}
+  btn.addEventListener('click',function(){nav.classList.contains('open')?closeNav(true):openNav()});
+  nav.addEventListener('click',function(e){if(e.target.closest('a'))closeNav(false)});
+  document.addEventListener('keydown',function(e){if(!nav.classList.contains('open'))return;
+    if(e.key==='Escape')closeNav(true);
+    else if(e.key==='Tab'){var f=[btn].concat([].slice.call(nav.querySelectorAll('a'))),i=f.indexOf(document.activeElement);if(e.shiftKey&&i<=0){e.preventDefault();f[f.length-1].focus()}else if(!e.shiftKey&&i===f.length-1){e.preventDefault();f[0].focus()}}});
+  addEventListener('resize',function(){if(innerWidth>=960&&nav.classList.contains('open'))closeNav(false);else if(nav.classList.contains('open'))nav.style.top=hdr.getBoundingClientRect().bottom+'px'});
+  var CAL=(function(){
+var M={sq:['Janar','Shkurt','Mars','Prill','Maj','Qershor','Korrik','Gusht','Shtator','Tetor','Nëntor','Dhjetor'],en:['January','February','March','April','May','June','July','August','September','October','November','December']},
+W={sq:['Hë','Ma','Më','En','Pr','Sh','Di'],en:['Mo','Tu','We','Th','Fr','Sa','Su']},
+WD={sq:['e diel','e hënë','e martë','e mërkurë','e enjte','e premte','e shtunë'],en:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday']},
+L={sq:{p:'Muaji i kaluar',n:'Muaji tjetër',s:'e zgjedhur',i:'mbërritja',o:'largimi'},en:{p:'Previous month',n:'Next month',s:'selected',i:'check-in',o:'check-out'}};
+function d0(d){return new Date(d.getFullYear(),d.getMonth(),d.getDate())}
+function add(d,n){return new Date(d.getFullYear(),d.getMonth(),d.getDate()+n)}
+function pad(n){return('0'+n).slice(-2)}
+function key(d){return d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate())}
+function parse(k){var p=k.split('-');return new Date(+p[0],p[1]-1,+p[2])}
+function same(a,b){return !!a&&!!b&&key(a)===key(b)}
+function long(d,l,y){var m=M[l][d.getMonth()];if(l==='sq')m=m.toLowerCase();return WD[l][d.getDay()]+', '+d.getDate()+' '+m+(y?' '+d.getFullYear():'')}
+function Cal(o){
+var el=o.el,T=d0(new Date()),max=new Date(T.getFullYear(),T.getMonth()+(o.maxMonths||12)+1,0),view=new Date(T.getFullYear(),T.getMonth(),1),foc=null,sel=null,a=null,b=null,hov=null,rg=!!o.range;
+function n(){return o.months?o.months():1}
+function dis(d){return d<T||d>max||!!(o.disabled&&o.disabled(d))}
+function inb(d){return d>=T&&d<=max}
+function clampV(v){var mn=new Date(T.getFullYear(),T.getMonth(),1),mx=new Date(max.getFullYear(),max.getMonth()-n()+1,1);if(mx<mn)mx=mn;return v<mn?mn:v>mx?mx:v}
+function vis(d){return d>=view&&d<new Date(view.getFullYear(),view.getMonth()+n(),1)}
+function firstEn(){for(var d=new Date(view),i=0;i<n()*31;i++,d=add(d,1))if(!dis(d))return d;return null}
+function state(){return rg?{a:a,b:b,nights:a&&b?Math.round((b-a)/864e5):0}:{date:sel}}
+function cls(d){var c='';if(same(d,T))c+=' today';var e=b||(a&&hov&&hov>a?hov:null);
+ if(rg){if(same(d,a))c+=' sel start'+(e?'':' only');else if(e&&same(d,e))c+=(b?' sel':' prev')+' end';else if(a&&e&&d>a&&d<e)c+=' rng'}else if(same(d,sel))c+=' sel';return c}
+function month(m,l,two,tab){var y=m.getFullYear(),mo=m.getMonth(),off=(m.getDay()+6)%7,days=new Date(y,mo+1,0).getDate(),h='<div class="cal-m" role="group" aria-label="'+M[l][mo]+' '+y+'">'+(two?'<div class="cal-mt">'+M[l][mo]+' '+y+'</div>':'')+'<div class="cal-w" aria-hidden="true">'+W[l].map(function(x){return'<span>'+x+'</span>'}).join('')+'</div><div class="cal-g">';
+ for(var i=0;i<off;i++)h+='<span></span>';
+ for(i=1;i<=days;i++){var d=new Date(y,mo,i),dd=dis(d),x=cls(d),pr=same(d,sel)||same(d,a)||same(d,b),lab=long(d,l,1)+(same(d,a)?', '+L[l].i:same(d,b)?', '+L[l].o:pr?', '+L[l].s:'');
+  h+='<button type="button" class="d'+x+'" data-k="'+key(d)+'" tabindex="'+(same(d,tab)?0:-1)+'" aria-label="'+lab+'" aria-pressed="'+pr+'"'+(dd?' disabled':'')+'>'+i+'</button>'}
+ return h+'</div></div>'}
+function render(){var l=o.lang(),c=n(),two=c>1,tab=foc&&vis(foc)&&!dis(foc)?foc:(sel&&vis(sel)?sel:(a&&vis(a)?a:firstEn()));
+ var last=new Date(view.getFullYear(),view.getMonth()+c-1,1),ttl=two?M[l][view.getMonth()]+' '+view.getFullYear()+' – '+M[l][last.getMonth()]+' '+last.getFullYear():M[l][view.getMonth()]+' '+view.getFullYear(),
+ pv=view>new Date(T.getFullYear(),T.getMonth(),1),nx=view<new Date(max.getFullYear(),max.getMonth()-c+1,1),
+ h='<div class="cal-head"><button type="button" class="cal-nav" data-n="-1" aria-label="'+L[l].p+'"'+(pv?'':' disabled')+'>‹</button><div class="'+(two?'sr-only':'cal-live')+'" role="status">'+ttl+'</div><button type="button" class="cal-nav" data-n="1" aria-label="'+L[l].n+'"'+(nx?'':' disabled')+'>›</button></div><div class="cal-months'+(two?' two':'')+'">';
+ for(var i=0;i<c;i++)h+=month(new Date(view.getFullYear(),view.getMonth()+i,1),l,two,tab);
+ el.innerHTML=h+'</div>'}
+function fd(d){var x=el.querySelector('[data-k="'+key(d)+'"]');if(x)x.focus()}
+function show(t){if(!vis(t)){var c=n();view=clampV(t<view?new Date(t.getFullYear(),t.getMonth(),1):new Date(t.getFullYear(),t.getMonth()-c+1,1))}}
+function emit(){o.onChange&&o.onChange(state())}
+function pick(d){if(dis(d))return;if(rg){if(!a||b||d<=a){a=d;b=null}else b=d}else sel=d;foc=d;hov=null;render();fd(d);emit()}
+function go(c,dl,st){var t=add(c,dl);while(inb(t)&&dis(t))t=add(t,st);if(inb(t)&&!dis(t)){foc=t;show(t);render();fd(t)}}
+el.addEventListener('click',function(e){var t=e.target.closest('button');if(!t)return;if(t.classList.contains('cal-nav')){var s=+t.dataset.n;view=clampV(new Date(view.getFullYear(),view.getMonth()+s,1));render();var nb=el.querySelector('.cal-nav[data-n="'+s+'"]');(nb&&!nb.disabled?nb:el.querySelector('.cal-nav:not([disabled])')||el).focus&&(nb&&!nb.disabled?nb:el.querySelector('.cal-nav:not([disabled])')||el).focus()}else if(t.classList.contains('d'))pick(parse(t.dataset.k))});
+el.addEventListener('keydown',function(e){var t=e.target;if(!t.classList||!t.classList.contains('d'))return;var c=parse(t.dataset.k),k=e.key,dl,st;
+ if(k==='ArrowLeft'){dl=-1;st=-1}else if(k==='ArrowRight'){dl=1;st=1}else if(k==='ArrowUp'){dl=-7;st=-7}else if(k==='ArrowDown'){dl=7;st=7}
+ else if(k==='Home'){dl=-((c.getDay()+6)%7);st=1}else if(k==='End'){dl=6-((c.getDay()+6)%7);st=-1}
+ else if(k==='PageUp'||k==='PageDown'){var s=k==='PageUp'?-1:1,m=new Date(c.getFullYear(),c.getMonth()+s,1),dm=new Date(m.getFullYear(),m.getMonth()+1,0).getDate();dl=Math.round((new Date(m.getFullYear(),m.getMonth(),Math.min(c.getDate(),dm))-c)/864e5);st=1}
+ else return;e.preventDefault();go(c,dl,st)});
+el.addEventListener('mouseover',function(e){if(!rg||!a||b)return;var t=e.target.closest('.d');if(!t||t.disabled)return;hov=parse(t.dataset.k);el.querySelectorAll('.d').forEach(function(x){x.className='d'+cls(parse(x.dataset.k))})});
+el.addEventListener('mouseleave',function(){if(hov){hov=null;el.querySelectorAll('.d').forEach(function(x){x.className='d'+cls(parse(x.dataset.k))})}});
+render();
+return{get:state,render:render,clear:function(){sel=a=b=hov=null;render();emit()},setView:function(d){view=clampV(new Date(d.getFullYear(),d.getMonth(),1));render()}}}
+function Chips(o){var el=o.el,val=null;
+function render(){el.innerHTML=o.groups.map(function(g){return'<div class="chip-g">'+(g.t?'<p class="chip-t">'+g.t+'</p>':'')+'<div class="chips" role="group"'+(g.t?' aria-label="'+g.t+'"':' aria-label="'+(o.label||'')+'"')+'>'+g.list.map(function(t){return'<button type="button" class="chip" data-t="'+t+'" aria-pressed="'+(t===val)+'"'+(o.disabled&&o.disabled(t)?' disabled':'')+'>'+t+'</button>'}).join('')+'</div></div>'}).join('')}
+el.addEventListener('click',function(e){var b=e.target.closest('.chip');if(!b||b.disabled)return;val=b.dataset.t;render();el.querySelector('[data-t="'+val+'"]').focus();o.onChange&&o.onChange(val)});
+render();return{get:function(){return val},clear:function(){val=null;render()},refresh:function(){if(val&&o.disabled&&o.disabled(val))val=null;render()}}}
+function Stepper(o){var el=o.el,v=o.val;
+function render(){var l=o.lang?o.lang():'sq',lb=o.labels[l];el.setAttribute('role','group');el.setAttribute('aria-label',lb[2]);el.innerHTML='<button type="button" data-d="-1" aria-label="'+lb[0]+'"'+(v<=o.min?' disabled':'')+'>−</button><output aria-live="polite">'+(o.fmt?o.fmt(v):v)+'</output><button type="button" data-d="1" aria-label="'+lb[1]+'"'+(v>=o.max?' disabled':'')+'>+</button>'}
+el.addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;var d=+b.dataset.d;v=Math.max(o.min,Math.min(o.max,v+d));render();var nb=el.querySelector('[data-d="'+d+'"]'),ou=el.querySelector('output');(nb&&!nb.disabled?nb:el.querySelector('button:not([disabled])')).focus();if(ou){ou.classList.add('bump');setTimeout(function(){ou.classList.remove('bump')},350)}if(o.onChange)o.onChange(v)});
+render();return{get:function(){return v},render:render}}
+function acc(d){return['të dielën','të hënën','të martën','të mërkurën','të enjten','të premten','të shtunën'][d.getDay()]}
+return{Cal:Cal,Chips:Chips,Stepper:Stepper,long:long,key:key,M:M,acc:acc}})();
+  function pad(n){return('0'+n).slice(-2)}
+  var f=document.getElementById('resform'),sumEl=document.getElementById('sum'),errEl=document.getElementById('err'),nameErr=document.getElementById('nameerr'),cal,chips,pst;
+  var lunch=[],dinner=[];for(var m=12*60;m<=15*60;m+=30)lunch.push(pad(m/60|0)+':'+pad(m%60));for(m=19*60;m<=23*60;m+=30)dinner.push(pad(m/60|0)+':'+pad(m%60));
+  function past(t){var s=cal&&cal.get().date,n=new Date();if(!s||CAL.key(s)!==CAL.key(n))return false;var p=t.split(':');return(+p[0]*60+ +p[1])<=n.getHours()*60+n.getMinutes()}
+  function upd(){var s=cal.get().date,t=chips.get(),pp=pst?pst.get():2;errEl.textContent='';nameErr.textContent='';f.elements.name.setAttribute('aria-invalid','false');
+    sumEl.textContent='Zgjedhja juaj: '+f.elements.loc.value+' · '+pp+(pp===1?' person':' persona')+(s?' · '+CAL.long(s,'sq',1)+(t?' në '+t:''):' · zgjidhni një ditë dhe një orë')}
+  cal=CAL.Cal({el:document.getElementById('cal'),lang:function(){return'sq'},onChange:function(){chips.refresh();upd()}});
+  chips=CAL.Chips({el:document.getElementById('slots'),groups:[{t:'Dreka',list:lunch},{t:'Darka',list:dinner}],disabled:past,onChange:upd});
+  pst=CAL.Stepper({el:document.getElementById('pst'),min:1,max:12,val:2,onChange:upd,labels:{sq:['Pakëso personat','Shto persona','Numri i personave']}});
+  f.addEventListener('submit',function(e){e.preventDefault();var s=cal.get().date,t=chips.get(),n=f.elements.name.value.trim(),er=[];
+    if(!n)er.push('Shkruani emrin tuaj.');if(!s)er.push('Zgjidhni një ditë.');if(!t)er.push('Zgjidhni një orë.');
+    errEl.textContent=er.join(' ');nameErr.textContent=n?'':'Shkruani emrin tuaj.';f.elements.name.setAttribute('aria-invalid',n?'false':'true');
+    if(er.length){if(!n)f.elements.name.focus();else document.getElementById(!s?'cal':'slots').scrollIntoView({block:'center',behavior:'smooth'});return}
+    var msg='Përshëndetje! Do të doja të rezervoja një tavolinë në '+f.elements.loc.value+'.\nEmri: '+n+'\nPersona: '+pst.get()+'\nData: '+CAL.long(s,'sq',1)+'\nOra: '+t+(f.elements.note.value.trim()?'\nShënim: '+f.elements.note.value.trim():'');
+    window.open('https://wa.me/355692092798?text='+encodeURIComponent(msg),'_blank','noopener')});
+  var maps={blloku:'Artigiano+Restaurant+Rruga+Abdyl+Frasheri+Tirane',vila:'Artigiano+Vila+Restaurant+Rruga+Papa+Gjon+Pali+II+9+Tirane'};
+  function setLoc(k){document.querySelectorAll('.locs button').forEach(function(x){x.setAttribute('aria-pressed',x.dataset.loc===k)});
+    document.querySelectorAll('.locpanel').forEach(function(pn){pn.hidden=pn.id!=='loc-'+k});
+    var mf=document.getElementById('mapframe'),u='https://www.google.com/maps?q='+maps[k]+'&output=embed';if(mf.getAttribute('src')!==u)mf.src=u;
+    f.elements.loc.selectedIndex=k==='vila'?1:0;upd()}
+  document.querySelectorAll('.locs button').forEach(function(t){t.addEventListener('click',function(){setLoc(t.dataset.loc)})});
+  f.elements.loc.addEventListener('change',function(){setLoc(f.elements.loc.selectedIndex===1?'vila':'blloku')});
+  upd();
+  var forms=[].slice.call(document.querySelectorAll('#termform,#resform,#bookform,.cta-band,.contact-grid,.hours-card,.btn-menu')),fabEl=document.querySelector('.wa-fab');
+  if('IntersectionObserver' in window&&fabEl&&forms.length){var fio=new IntersectionObserver(function(en){en.forEach(function(x){x.target.__v=x.isIntersecting});fabEl.classList.toggle('hide',forms.some(function(f){return f.__v}))});forms.forEach(function(f){fio.observe(f)})}
+  document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href^="#"]');if(!a||a.getAttribute('href').length<2||e.defaultPrevented)return;var t=document.querySelector(a.getAttribute('href'));if(!t)return;e.preventDefault();t.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'auto':'smooth',block:'start'});try{history.pushState(null,'',a.getAttribute('href'))}catch(x){}});
+  var els=document.querySelectorAll('.reveal');
+  if(!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('in')});return}
+  var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}})},{threshold:.12});
+  els.forEach(function(e,i){e.style.transitionDelay=(i%3)*90+'ms';io.observe(e)});
+})();
+</script>
+</body>
+</html>
